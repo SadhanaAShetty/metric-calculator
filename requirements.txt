@@ -1,0 +1,21 @@
+# AWS CDK
+aws-cdk-lib>=2.230.0
+constructs>=10.4.3
+
+# AWS SDK for Python
+boto3>=1.41.5
+
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.23.2
+
+# Data handling
+pandas==2.1.2
+SQLAlchemy==2.0.22
+
+# Data validation
+pydantic==2.6.1
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.22.0  # if you plan to test async FastAPI endpoints
